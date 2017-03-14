@@ -41,7 +41,25 @@ nav ul li a {
 }
 
 div h2 {
+     color: white;
      margin-left: 1%;
+}
+
+.sectionAboutMe {
+     background: black;
+     display: flex;
+     border-radius: 5px;
+     margin: .5% 0 .5% 0;
+}
+
+.aboutMe {
+     float: left;
+     background: black;
+     color: white;
+     border-radius: 5px;
+     /*padding: 0 0 .5% 0;*/
+     width: 60%;
+     height: auto;
 }
 
 .sectionChatApp {
@@ -49,7 +67,6 @@ div h2 {
      display: flex;
      border-radius: 5px;
      margin: .5% 0 2% 0;
-
 }
 
 .row {
@@ -119,11 +136,41 @@ div h2 {
      background: black;
      display: flex;
      border-radius: 5px;
-     margin: .5% 0 4.5% 0;
+     margin: .5% 0 2% 0;
 
 }
 
 .linkDM {
+     background: black;
+     color: white;
+     text-align: center;
+     width: 40%;
+     border-radius: 5px;
+}
+
+.sectionCalc {
+     background: black;
+     display: flex;
+     border-radius: 5px;
+     margin: .5% 0 2% 0;
+}
+
+.linkCalc {
+     background: black;
+     color: white;
+     text-align: center;
+     width: 40%;
+     border-radius: 5px;
+}
+
+.sectionCSnap {
+     background: black;
+     display: flex;
+     border-radius: 5px;
+     margin: .5% 0 4.5% 0;
+}
+
+.linkCSnap {
      background: black;
      color: white;
      text-align: center;
