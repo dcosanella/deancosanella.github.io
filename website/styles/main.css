@@ -115,6 +115,22 @@ div h2 {
      border-radius: 5px;
 }
 
+.sectionDM {
+     background: black;
+     display: flex;
+     border-radius: 5px;
+     margin: .5% 0 4.5% 0;
+
+}
+
+.linkDM {
+     background: black;
+     color: white;
+     text-align: center;
+     width: 40%;
+     border-radius: 5px;
+}
+
 .description {
      color: white;
      line-height: 1.5;
