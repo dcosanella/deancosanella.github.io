@@ -1,3 +1,7 @@
+html {
+     overflow-x: hidden;
+}
+
 body {
      margin: 0;
      font-family: sans-serif;
@@ -11,6 +15,7 @@ header {
      background: #FFB612;
      color: black;
      padding: 15px 15px 0 15px;
+     width: 100%
 }
 
 header h1 {
@@ -45,11 +50,20 @@ div h2 {
      margin-left: 1%;
 }
 
+.intro {
+     background: black;
+     display: flex;
+     border-radius: 5px;
+     margin: 2% 0 2% 0;
+     width: 100%
+}
+
 .sectionAboutMe {
      background: black;
      display: flex;
      border-radius: 5px;
-     margin: .5% 0 .5% 0;
+     margin: .5% 0 3.45% 0;
+     width: 100%
 }
 
 .aboutMe {
@@ -67,6 +81,7 @@ div h2 {
      display: flex;
      border-radius: 5px;
      margin: .5% 0 2% 0;
+     width: 100%
 }
 
 .row {
@@ -167,7 +182,7 @@ div h2 {
      background: black;
      display: flex;
      border-radius: 5px;
-     margin: .5% 0 4.5% 0;
+     margin: .5% 0 2.25% 0;
 }
 
 .linkCSnap {
@@ -189,11 +204,11 @@ div h2 {
 }
 
 footer {
-     position: fixed;
-     right: 0;
+     background: #FFB612;
+     position: static;
      bottom: 0;
      left: 0;
      padding: 1rem;
-     background-color: #999;
      text-align: center;
+     width: 100%;
 }
