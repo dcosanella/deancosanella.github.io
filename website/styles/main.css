@@ -15,7 +15,6 @@ header {
      background: #FFB612;
      color: black;
      padding: 15px 15px 0 15px;
-     width: 100%
 }
 
 header h1 {
@@ -182,7 +181,7 @@ div h2 {
      background: black;
      display: flex;
      border-radius: 5px;
-     margin: .5% 0 2.25% 0;
+     margin: .5% 0 2% 0;
 }
 
 .linkCSnap {
@@ -210,5 +209,4 @@ footer {
      left: 0;
      padding: 1rem;
      text-align: center;
-     width: 100%;
 }
