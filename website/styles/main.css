@@ -75,6 +75,24 @@ div h2 {
      height: auto;
 }
 
+.imageAboutMe {
+     background: black;
+     width: 40%;
+     position: relative;
+     /*left: 20%;*/
+     border-radius: 5px;
+}
+
+.image {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     width: 310px;
+     height: 318px;
+     margin-left: -155px;
+     margin-top: -159px;
+}
+
 .sectionChatApp {
      background: black;
      display: flex;
