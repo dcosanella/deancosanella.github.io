@@ -61,7 +61,7 @@ div h2 {
      background: black;
      display: flex;
      border-radius: 5px;
-     margin: .5% 0 3.45% 0;
+     margin: .5% 0 2.2% 0;
      width: 100%
 }
 
@@ -70,7 +70,6 @@ div h2 {
      background: black;
      color: white;
      border-radius: 5px;
-     /*padding: 0 0 .5% 0;*/
      width: 60%;
      height: auto;
 }
@@ -79,7 +78,6 @@ div h2 {
      background: black;
      width: 40%;
      position: relative;
-     /*left: 20%;*/
      border-radius: 5px;
 }
 
@@ -93,12 +91,20 @@ div h2 {
      margin-top: -159px;
 }
 
-.sectionChatApp {
+.section {
      background: black;
      display: flex;
      border-radius: 5px;
      margin: .5% 0 2% 0;
      width: 100%
+}
+
+.link {
+     background: black;
+     color: white;
+     text-align: center;
+     width: 40%;
+     border-radius: 5px;
 }
 
 .row {
@@ -111,105 +117,6 @@ div h2 {
      height: auto;
 }
 
-.linkChatApp {
-     background: black;
-     color: white;
-     text-align: center;
-     width: 40%;
-     border-radius: 5px;
-}
-
-.sectionBMS {
-     background: black;
-     display: flex;
-     border-radius: 5px;
-     margin: .5% 0 2% 0;
-}
-
-.linkBMS {
-     background: black;
-     color: white;
-     text-align: center;
-     width: 40%;
-     border-radius: 5px;
-}
-
-.sectionCSP {
-     background: black;
-     display: flex;
-     border-radius: 5px;
-     margin: .5% 0 2% 0;
-}
-
-.linkCSP {
-     background: black;
-     color: white;
-     text-align: center;
-     width: 40%;
-     border-radius: 5px;
-}
-
-.sectionSB {
-     background: black;
-     display: flex;
-     border-radius: 5px;
-     margin: .5% 0 2% 0;
-}
-
-.linkSB {
-     background: black;
-     color: white;
-     text-align: center;
-     width: 40%;
-     border-radius: 5px;
-}
-
-.sectionDM {
-     background: black;
-     display: flex;
-     border-radius: 5px;
-     margin: .5% 0 2% 0;
-
-}
-
-.linkDM {
-     background: black;
-     color: white;
-     text-align: center;
-     width: 40%;
-     border-radius: 5px;
-}
-
-.sectionCalc {
-     background: black;
-     display: flex;
-     border-radius: 5px;
-     margin: .5% 0 2% 0;
-}
-
-.linkCalc {
-     background: black;
-     color: white;
-     text-align: center;
-     width: 40%;
-     border-radius: 5px;
-}
-
-.sectionCSnap {
-     background: black;
-     display: flex;
-     border-radius: 5px;
-     margin: .5% 0 2% 0;
-}
-
-.linkCSnap {
-     background: black;
-     color: white;
-     text-align: center;
-     width: 40%;
-     border-radius: 5px;
-}
-
 .description {
      color: white;
      line-height: 1.5;
@@ -220,6 +127,12 @@ div h2 {
      padding: 0 0 0 10px;
 }
 
+.message {
+     margin-top: 7.5%;
+     margin-left: 20%;
+     margin-right: 20%
+}
+
 footer {
      background: #FFB612;
      position: static;
@@ -227,4 +140,8 @@ footer {
      left: 0;
      padding: 1rem;
      text-align: center;
+}
+
+footer a {
+     color: black;
 }
