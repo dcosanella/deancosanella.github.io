@@ -1,24 +1,66 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
      <head>
-          <title>Dean Cosanella</title>
-          <link href="website/styles/main.css" rel="stylesheet" type="text/css"/>
-     </head>
-     <body>
-          <header>
-               <nav>
-                    <h1>My Home Page</h1>
-                    <ul>
-                         <li><a href="index.html">Home</a></li>
-                         <li><a href="website/projects.html">Projects</a></li>
-                         <li><a href="website/links/Resume.pdf">Resume</a></li>
-                    </ul>
-               </nav>
-          </header>
+          <meta charset="utf-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-               <!--Summary about me goes here.-->
-               <div class="intro">
-                    <p class="description">
+          <link href="styles/main.css" rel="stylesheet" type="text/css"/>
+
+          <title>Dean Cosanella</title>
+
+          <!-- Latest compiled and minified CSS -->
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+
+          <!-- Optional theme -->
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+          crossorigin="anonymous">
+
+          <!-- JQuery CDN (for navbar menu) -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+          <!-- Latest compiled and minified JavaScript -->
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+               integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+               crossorigin="anonymous"></script>
+
+
+
+     </head>
+
+     <body>
+
+          <nav class="navbar navbar-inverse">
+               <div class="container-fluid my-nav">
+                    <!-- Logo -->
+                    <div class="navbar-header">
+                         <button type="button" class="navbar-toggle" data-toggle="collapse"
+                              data-target="#mainNavBar">
+                                   <span class="icon-bar"></span>
+                                   <span class="icon-bar"></span>
+                                   <span class="icon-bar"></span>
+                              </button>
+                         <a href="#" class="navbar-brand">Home Page</a>
+                    </div>
+
+                    <!-- Menu Items -->
+                    <div class="collapse navbar-collapse" id="mainNavBar">
+                         <ul class="nav navbar-nav">
+                              <li class="active"><a href="index.html">Home</a></li>
+                              <li><a href="projects.html">Projects</a></li>
+                              <li><a href="links/Resume.pdf">Resume</a></li>
+                         </ul>
+                    </div>
+               </div>
+          </nav>
+
+          <div class="container-fluid my-body">
+               <div class="row">
+                    <div class="col-xs-12">
                          Hello and welcome to my personal website. My name
                          is Dean Cosanella. I want to use this website as
                          my personal portfolio to show off the projects that
@@ -30,11 +72,12 @@
                          this site to view all of my work. At the bottom of each
                          page, there is a link to my LinkedIn account if you are
                          interested in viewing that as well. Thank you.
-                    </p>
+                    </div>
                </div>
-               <div class="sectionAboutMe">
-                    <div class="aboutMe">
-                         <h2 class="project">About Me</h2>
+
+               <div class="row equal">
+                    <div class="col-md-8">
+                         <h2>About Me</h2>
                          <p class="description">
                               In December 2015, I received a Bachelor of
                               Science Degree in Computer Science from California
@@ -93,18 +136,20 @@
                               email. Thank you.
                          </p>
                     </div>
-                    <div class="imageAboutMe">
-                         <div class="image">
-                              <img src="website/links/pitLogos.jpg" alt="My Teams"
-                                   style="width: 300px; height: auto;">
-                         </div>
+                    <div class="col-md-4">
+                         <img class="img-center" src="links/pitLogos.jpg">
                     </div>
                </div>
+          </div>
 
-               <footer><strong>Created by Dean Cosanella (2017) |
-                    <a href="https://www.linkedin.com/in/dean-cosanella-27b863b5/">LinkedIn
-                    </a>
-                    </strong>
-               </footer>
+          <footer class="footer-home">
+               <div class="container-footer">
+                    <p class="footer"><strong>&copy; Dean Cosanella 2017&ensp; |
+                         <a href="https://www.linkedin.com/in/dean-cosanella-27b863b5/">&ensp;LinkedIn
+                         </a>
+                         </strong>
+                    </p>
+               </div>
+          </footer>
      </body>
 </html>

@@ -1,0 +1,179 @@
+.container-fluid.my-nav {
+     background-color: #FFB612;
+     border-radius: 0;
+}
+
+.container-fluid.my-body {
+     background-color: white;
+     width: 90%;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+body {
+     height: 100vh;
+}
+
+nav.navbar.navbar-inverse {
+     border: 0;
+}
+
+ul.nav li a, ul.nav li a:visited {
+    color: black !important;
+    font-size: 125%;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: black !important;
+
+}
+
+ul.nav li.active a {
+    color: #FFB612 !important;
+    background: black !important;
+}
+
+a.navbar-brand {
+     color: black !important;
+     font-size: 250%
+}
+
+.navbar-toggle {
+     background: black !important;
+}
+
+.equal {
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.background {
+     background: black;
+}
+
+
+.col-xs-12 {
+     background: black;
+     color: white;
+     border-radius: 5px;
+     padding: 15px 30px 15px 30px;
+     font-size: 115%;
+     margin-top: 2%;
+}
+
+.col-md-8 {
+     margin-top: 2%;
+     background: black;
+     color: white;
+     border-radius: 5px 0 0 5px;
+     padding: 15px;
+     font-size: 115%;
+}
+
+.col-md-8 h2 {
+     margin-top: auto;
+     margin-bottom: 2.5%;
+}
+
+.col-md-4 {
+     margin-top: 2%;
+     background: black;
+     border-radius: 0 5px 5px 0;
+}
+
+.col-md-4 p {
+     color: white;
+     text-align: center;
+     font-size: 115%;
+     margin-top: 2.5%;
+}
+
+.img-center {
+     position: absolute;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     margin: auto;
+}
+
+.img-center-CA {
+     position: absolute;
+     top: 10%;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     margin: auto;
+}
+
+.img-center-BMS {
+     position: absolute;
+     top: 30%;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     margin: auto;
+}
+
+.img-center-SB {
+     position: absolute;
+     top: 40%;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     margin: auto;
+}
+
+.img-center-DM {
+     position: absolute;
+     top: 20%;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     margin: auto;
+}
+
+.description {
+     margin-top: .5%;
+}
+
+.col-md-4 .CSmessage {
+     margin-top: 8%;
+}
+
+.footer-home {
+     clear: both;
+     background: #FFB612;
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+     /* Set the fixed height of the footer here */
+     height: 40px;
+     line-height: 40px; /* Vertically center the text there */
+     text-align: center;
+}
+
+.footer-projects {
+     background: #FFB612;
+     position: static;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     margin-top: 2%;
+     /* Set the fixed height of the footer here */
+     height: 40px;
+     line-height: 40px; /* Vertically center the text there */
+     text-align: center;
+}
+
+.footer {
+     margin: 0;
+}
+
+.footer a {
+     color: black;
+}
+
+.footer a:hover {
+     text-decoration: none;
+}
