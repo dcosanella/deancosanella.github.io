@@ -176,4 +176,5 @@ a.navbar-brand {
 
 .footer a:hover {
      text-decoration: none;
+     color: inherit;
 }
