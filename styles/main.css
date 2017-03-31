@@ -181,6 +181,23 @@ a.navbar-brand {
      text-decoration: none;
      color: inherit;
 }
+
+/* for footer on home page */
+@media screen and (max-width:1725px) {
+     .footer-home {
+          clear: both;
+          background: #FFB612;
+          position: static;
+          bottom: 0;
+          width: 100%;
+          margin-top: 2%;
+          /* Set the fixed height of the footer here */
+          height: 40px;
+          line-height: 40px; /* Vertically center the text there */
+          text-align: center;
+     }
+}
+
 /* tablet size */
 @media screen and (max-width:992px) {
      .container-fluid.my-body {
